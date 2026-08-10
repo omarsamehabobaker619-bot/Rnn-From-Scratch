@@ -94,7 +94,7 @@ Gradient clipping is used to reduce the risk of exploding gradients.
 1. Clone this repository:
 ```bash
 git clone https://github.com/omarsamehabobaker619-bot/Rnn-From-Scratch.git
-cd rnn-from-scratch
+cd Rnn-From-Scratch
 ```
 
 2. Create and activate a virtual environment (optional but recommended):
@@ -102,9 +102,12 @@ cd rnn-from-scratch
 python -m venv venv
 venv\Scripts\activate
 ```
-On Mac/Linux use `source venv/bin/activate` instead.
+On Mac/Linux:
+```bash
+source venv/bin/activate
+```
 
-3. Install dependencies:
+3. Install the dependencies:
 ```bash
 pip install numpy jupyter
 ```
