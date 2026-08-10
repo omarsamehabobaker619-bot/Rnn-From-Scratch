@@ -91,4 +91,20 @@ Gradient clipping is used to reduce the risk of exploding gradients.
 
 ## How to Run
 
-1. Clone 
+1. Clone this repository:
+
+    git clone https://github.com/your-username/rnn-from-scratch.git
+    cd rnn-from-scratch
+
+2. Create and activate a virtual environment (optional but recommended):
+
+    python -m venv venv
+    venv\Scripts\activate      # Windows
+    source venv/bin/activate   # Mac/Linux
+
+3. Install dependencies:
+    pip install numpy matplotlib
+
+4. Open `rnn.ipynb` in VS Code or Jupyter Notebook.
+
+5. Run all cells from top to bottom.
